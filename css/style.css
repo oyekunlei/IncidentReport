@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08 Sep 2016, 3:46:58 AM
+    Author     : elizabetho
+*/
+.new-form
+{
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+    border:1px solid #1b6d85;
+    border-radius: 5px;
+}
+
+.new-form input
+{
+    border-radius: 1px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.new-form button
+{
+    margin: 10px;
+    border-radius: 1px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn.btn-primary{
+    margin: 10px;
+}
+
+.issues{
+    border: 1px solid #1b6d85;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.issue{
+    background-color: peachpuff;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin: 12px auto;
+}
+
+.issue:hover{
+    background-color: #e6e154;
+}
+
+.issues a{
+    color: #333;
+}
+
+.issues a:hover,
+.issues a:focus,
+.issues a:active
+{
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.worker{
+    display: block;
+    border: 1px solid #1b6d85;
+    padding: 30px;
+    width: 60%;
+    margin: 20px auto;
+    height: 200px;
+}
+
+.status-select{
+    margin: 40% 5px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+input.fix{
+    border-color: red;
+}
+input.fix:hover,
+input.fix:focus,
+input.fix:active{
+    border-color: red;
+}
+
+.alert{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.user-img{
+    margin-top: 35px;
+}
